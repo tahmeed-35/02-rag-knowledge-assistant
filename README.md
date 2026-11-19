@@ -1,4 +1,4 @@
-﻿# RAG-Based Technical Knowledge Assistant
+# RAG-Based Technical Knowledge Assistant
 
 A production-grade Retrieval-Augmented Generation (RAG) assistant designed for technical documentation. Ingests PDF and Markdown documents, stores semantic chunks in ChromaDB with cosine similarity, and serves answers via FastAPI with source citations and strict refusal thresholds for out-of-domain queries.
 
@@ -18,7 +18,7 @@ A production-grade Retrieval-Augmented Generation (RAG) assistant designed for t
 
 ```
 02-rag-knowledge-assistant/
-├── ci/
+├── .github/workflows/
 │   └── ci.yml               # Automated CI test pipeline configuration
 ├── data/
 │   └── docs/                # Knowledge base documents (Markdown/PDF)
